@@ -14,7 +14,7 @@ def generar_contrasena():
         #converti lista en cadena de caracter
     contra = "".join(contra)
     return contra
-
+#funcion principal
 def main():
     contra = generar_contrasena()
     print('tu nueva contrasenña es :',contra)
