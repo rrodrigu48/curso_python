@@ -4,7 +4,7 @@ def es_primo(numero):
     for i in range(1,numero+1):
         if i == 1 or i == numero:
             continue
-        #verifica que la division col los nmeros hasta el numero 
+        #verifica que la division con los nmeros hasta el numero 
         #ingresado sea igual a 0
         if numero % i == 0:
             com +=1
@@ -14,7 +14,7 @@ def es_primo(numero):
     else:
         return False
              
-
+# fucion principal
 def main():
     numero =int(input('ingresa un numero :'))
     
