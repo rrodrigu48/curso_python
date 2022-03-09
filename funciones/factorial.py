@@ -9,3 +9,4 @@ n = int (input('ingrese un numero '))
 
 f =factorial(n)
 print(f'su factorial de {n} es :',f)
+#holaa
