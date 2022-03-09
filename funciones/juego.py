@@ -24,3 +24,30 @@ def jugar(vidas):
        print('ganaste el juego') 
 
 jugar(10)
+
+def main():
+    while True:
+        menu = """
+        adivina el numero
+            1- nivel facil
+            2- nivel intermedio
+            3- nivel dificil
+            4- salir
+        """
+        opcion = input (menu)
+        
+        if opcion =='1':
+            jugar(10)
+        elif opcion == '2':
+            jugar(7)
+        elif opcion == '3':
+            jugar(5)
+        elif opcion == '4':
+            print('cerrar secion')
+            break
+        else:  
+            print('opcion incottecta')
+
+ #punto de inicio de la app   
+if __name__ == '__main__':
+    main()
